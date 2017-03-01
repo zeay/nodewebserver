@@ -29,10 +29,12 @@ app.use((req,res,next) =>{
     next();
 })
 
+/*
 app.use((req,res,next) =>{
     res.render('main.hbs');
-   // next();
+    next();
 })
+*/
 
 /*app.get('/main',(req,res) => {
     res.render("main.hbs");
